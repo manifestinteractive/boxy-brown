@@ -27,7 +27,7 @@ WTF is This?
 
 If you have ever seen Adult Swim's [Aqua Teen Hunger Force](http://www.adultswim.com/videos/aqua-teen-hunger-force/), this project is to make a real life version of my personal favorite character, [Boxy Brown](http://aqua-teen-hunger-force.wikia.com/wiki/Boxy_Brown) that plays actual audio clips from the show.  I am working on getting a Mobile App added to this project to remote trigger audio clips, but am releasing this in the mean time since it works.
 
-__Demo Video__: [https://vimeo.com/159305190](https://vimeo.com/159305190)
+__DEMO VIDEO__: [https://vimeo.com/159305190](https://vimeo.com/159305190)
 
 
 Part List
@@ -42,7 +42,7 @@ Part List
 * `BLU` [Bluetooth Low Energy (BLE 4.0) - nRF8001](https://www.adafruit.com/product/1697?utm_medium=referral&utm_source=manifestinteractive) _$19.95_
 * `SPK` [Speaker - 3" Diameter - 4 Ohm 3 Watt](https://www.adafruit.com/products/1314?utm_medium=referral&utm_source=manifestinteractive) _$1.95_
 
-#### Other Stuff You'll Need:
+#### Other stuff you'll need:
 
 * [Micro SD Card ( 2GB )](http://www.amazon.com/Sandisk-2GB-Micro-Sd-Card/dp/B000N3LL02) _$7.95_
 * [6"x6"x6" Cardboard Box](http://www.amazon.com/gp/product/B00E81KHOG) _$7.50_
@@ -88,7 +88,7 @@ Here we have all the hardware ready to be assembled.  I have attached some short
 
 ### Step 2:
 
-Place Double Sided Foam Tab on the back of the Bluetooth Module.
+Place Double Sided Foam Tape on the back of the Bluetooth Module.
 
 ![Step 2](images/build/hardware_002.jpg "Step 2")
 
