@@ -94,7 +94,7 @@ Place Double Sided Foam Tab on the back of the Bluetooth Module.
 
 ### Step 3:
 
-Place Bluetooth Module in the exact location shown below ( only do this if you have already soldered the wires to the Bluetooth Module ).  The reason for this specific location is that this will be underneath the MP3 Shield when you stack in on top of the Arduino.  This specific placement does not obscure or make contact with anything on the Arduino Uno.  While you have the MP3 Shield flipped over on its back side, you should go ahead and solder the LEFT speaker connector to the amp on the MP3 Shield.  DO NOT attach the RIGHT one, as that will actually block your ability to mount the MP3 Shield to the Arduino Board.  Since the audio files are Mono, you only need one speaker to play the audio files.
+Place Bluetooth Module in the exact location shown below ( only do this if you have already soldered the wires to the Bluetooth Module ).  The reason for this specific location is that this will be underneath the MP3 Shield when you stack it on top of the Arduino.  This specific placement does not obscure or make contact with anything on the Arduino Uno.  While you have the MP3 Shield flipped over on its back side, you should go ahead and solder the LEFT speaker connector to the amp on the MP3 Shield.  DO NOT attach the RIGHT one, as that will actually block your ability to mount the MP3 Shield to the Arduino Board.  Since the audio files are Mono, you only need one speaker to play the audio files.
 
 See the [Bluetooth LE Assembly Documentation](https://learn.adafruit.com/getting-started-with-the-nrf8001-bluefruit-le-breakout) if you need further assistance.
 
@@ -102,7 +102,7 @@ See the [Bluetooth LE Assembly Documentation](https://learn.adafruit.com/getting
 
 ### Step 4:
 
-Using the Wiring Instruction, wire the Bluetooth Module into the correct holes on the MP3 Shield.  You do not need to solder anything just yet, as it will be easier to do this one you place the MP3 Shield on top of the Ardiono Uno.  Once this is done, you can attach the MP3 Shield to the Arduino Uno and solder all the pins needed to make the connections.
+Using the [Wiring Instructions](#wiring-instructions), wire the Bluetooth Module into the correct holes on the MP3 Shield.  You do not need to solder anything just yet, as it will be easier to do this one you place the MP3 Shield on top of the Ardiono Uno.  Once this is done, you can attach the MP3 Shield to the Arduino Uno and solder all the pins needed to make the connections.
 
 See the [MP3 Shield Assembly Documentation](https://learn.adafruit.com/adafruit-music-maker-shield-vs1053-mp3-wav-wave-ogg-vorbis-player) if you need further assistance.
 
@@ -124,7 +124,7 @@ Here you can see that the Speaker has an air gap by using two layers of Double S
 
 ### Step 7:
 
-I place the Speaker directly behind Boxy Browns mouth.  I attached the Arduino Uno to the inside as well.  Keep in mind that you will want to be able to access the USB and Micro SD card so leave yourself room to insert / remove these from your installation so you can make updates if you choose.
+I placed the Speaker directly behind Boxy Browns mouth.  I attached the Arduino Uno to the inside as well.  Keep in mind that you will want to be able to access the USB and Micro SD card so leave yourself room to insert / remove these from your installation so you can make updates if you choose.
 
 ![Step 7](images/build/hardware_007.jpg "Step 7")
 
@@ -134,9 +134,9 @@ Software Installation
 
 **[⇧ back to top](#table-of-contents)**
 
-Before you install the software onto your Arduino Uno, you will want to copy all the audio files in the `./sounds` folder into the root of your Micro SD Card.  Do not change the file names as the software expects them to be named exactly as they are.  Also, make sure not to put the files in any folders on the SD card.  They should be directly in the root of the card.
+Before you install the software onto your Arduino Uno, you will want to copy all the audio files in the [./sounds](sounds) folder into the root of your Micro SD Card, then insert the SD Card into the MP3 Shield.  Do not change the file names as the software expects them to be named exactly as they are.  Also, make sure not to put the files in any folders on the SD card.  They should be directly in the root of the card.
 
-Once you have all the hardware installed, you just need to open the `./sketch/sketch.ino` file in your [Arduino Code Editor](https://www.arduino.cc/en/Main/Software).  Now you just need to upload the sketch to your Arduino Uno.
+Once you have all the hardware installed, you just need to open the [./sketch/sketch.ino](sketch/sketch.ino) file in your [Arduino Code Editor](https://www.arduino.cc/en/Main/Software).  Now you just need to upload the sketch to your Arduino Uno.
 
 
 Triggering Voices
@@ -144,7 +144,7 @@ Triggering Voices
 
 **[⇧ back to top](#table-of-contents)**
 
-Currently you can trigger Boxy Brown to speak from within the Ardiono Editor via `Tools > Serial Monitor`.  Once you have the Serial Monitor Open, make sure you have the following set:
+You can trigger Boxy Brown to speak from within the Ardiono Editor via `Tools > Serial Monitor`.  Once you have the Serial Monitor Open, make sure you have the following properly set:
 
 * [x] Autoscroll
 * No Line Ending
@@ -154,15 +154,15 @@ With everything setup, you can now send commands to the Ardiono.  Simply type in
 
 ### Here is the current command list:
 
-| Command | File         | Description                           |
-|---------|--------------|---------------------------------------|
-| +       | N/A          | Increases Volume                      |
-| -       | N/A          | Decreases Volume                      |
-| 1       | boxy_001.mp3 | Plays "Nobody tells Boxy Brown" Clip  |
-| 2       | boxy_002.mp3 | Plays "That was a grocery bag" Clip   |
-| 3       | boxy_003.mp3 | Plays "I just a what b&@#$ ?!?!" Clip |
-| 4       | boxy_004.mp3 | Plays "Diss me to my face" Clip       |
-| 5       | boxy_005.mp3 | Plays "I want me some pie" Clip       |
+| Command | File         | Description                               |
+|---------|--------------|-------------------------------------------|
+| +       | N/A          | Increases Volume                          |
+| -       | N/A          | Decreases Volume                          |
+| 1       | boxy_001.mp3 | Plays __"Nobody tells Boxy Brown"__ Clip  |
+| 2       | boxy_002.mp3 | Plays __"That was a grocery bag"__ Clip   |
+| 3       | boxy_003.mp3 | Plays __"I just a what, b&@#$ ?!?!"__ Clip |
+| 4       | boxy_004.mp3 | Plays __"Diss me to my face"__ Clip       |
+| 5       | boxy_005.mp3 | Plays __"I want me some pie"__ Clip       |
 
 You are probably wondering why I have a Bluetooth Module if I am not using it.  This is a great question, and it shows you are paying attention.  Boxy Brown would be impressed.  I am working on a Mobile App ( that I will also release as part of this project ) to allow remote triggering of these commands from your favorite Android or iOS device :)
 
