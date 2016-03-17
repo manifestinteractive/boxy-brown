@@ -87,7 +87,6 @@ void changeVolume(int change){
 
 // Play MP3 via passed File Name from SD Card
 void playMP3(char* fileName){
-  String str = "";
   musicPlayer.stopPlaying();
   musicPlayer.startPlayingFile(fileName);
 }

@@ -110,7 +110,7 @@ See the [MP3 Shield Assembly Documentation](https://learn.adafruit.com/adafruit-
 
 ### Step 5:
 
-In order to mount the hardware inside Boxy Brown, we need to attach some Double Sided Foam Tape to the Back of the Arduino Uno and the Top of the Speaker. For the Arduino Uno, you will need to use two layers of Foam Tape since only one layer actually rest below the existing pins that are poking out of the board.  Adding a second layer of foam tape clears those pins so you can actually stick it to something.
+In order to mount the hardware inside Boxy Brown, we need to attach some Double Sided Foam Tape to the Back of the Arduino Uno and the Top of the Speaker. For the Arduino Uno, you will need to use two layers of Foam Tape since only one layer actually rests below the existing pins that are poking out of the board.  Adding a second layer of foam tape clears those pins so you can actually stick it to something.
 
  Likewise, for the Speaker, you will want to do two layers of tape, but this to prevent speaker damage.
 
