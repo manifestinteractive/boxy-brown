@@ -11,7 +11,7 @@ __LEGAL:__ Audio Clips and Images of Boxy Brown are owned and copyrighted by The
 Table of Contents
 ---
 
-* [WTF is this ?](#wtf-is-this)
+* [WTF is This?](#wtf-is-this)
 * [Part List](#part-list)
 * [Wiring Instructions](#wiring-instructions)
 * [Hardware Assembly](#hardware-assembly)
