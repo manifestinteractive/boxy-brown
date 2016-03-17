@@ -20,7 +20,7 @@ Table of Contents
 * [Reference Material](#reference-material)
 
 
-WTF is this ?
+WTF is This?
 ---
 
 **[⇧ back to top](#table-of-contents)**
@@ -51,7 +51,7 @@ Part List
 * [Double Sided Foam Tape Squares](http://www.amazon.com/3M-Scotch-Mounting-Squares/dp/B002YM3VYY) _$5.33_
 * [Sharpie Chisel Tip Permanent Marker](http://www.amazon.com/Sharpie-Chisel-Tip-Permanent-Markers/dp/B000XF2TOM) _$4.81_
 
-You may also want a White & Brown Colored Pencil if you are a perfectionist like me and wish to add some color to Boxy Brown.  You will also want some yellow/white-ish colored tape ( like scotch tape, or whatever you have lying around ).
+You may also want a White & Brown Colored Pencil if you are a perfectionist like me and wish to add some color to Boxy Brown's lips & eyes.  You will also want some yellow/white-ish colored tape ( like scotch tape, or whatever you have lying around ).
 
 
 Wiring Instructions
